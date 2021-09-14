@@ -1152,12 +1152,34 @@
     z-index: 1;
 }
 
-.takehair_video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.takehair_video video {
     height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1920px) {
+    .takehair_video video {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 1920px) {
+    .takehair_video {
+        padding-bottom: 56.25%;
+        top: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 630px) {
+    .takehair_video {
+        padding-bottom: 100%;
+        top: 0;
+        height: 0;
+        overflow: hidden;
+    }
 }
 
 .takehair_page1_content {
