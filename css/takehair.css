@@ -724,7 +724,7 @@
     font-size: 36px;
     letter-spacing: 6px;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0;
     font-weight: 600;
 }
 
@@ -3768,7 +3768,7 @@
         font-size: 14px;
         letter-spacing: 2px;
         text-align: center;
-        margin: 50px auto;
+        margin-top: 10px;
         font-weight: 600;
     }
 }
@@ -3793,6 +3793,24 @@
     margin: auto;
     text-align: center;
     margin-top: 50px;
+}
+
+@media (max-width: 630px) {
+    .gothic_slider {
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.gothic_slider1 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .lynnpregnant_page7_button {
@@ -4198,19 +4216,7 @@
 
 @media (max-width: 615px) {
     .post-slide {
-        margin: 0 100px;
-    }
-}
-
-@media (max-width: 500px) {
-    .post-slide {
-        margin: 0 50px;
-    }
-}
-
-@media (max-width: 414px) {
-    .post-slide {
-        margin: 0 20px;
+        margin: 0 10px 20px 0;
     }
 }
 
@@ -4219,6 +4225,9 @@
     height: auto;
     transform: scale(1.02);
     transition: all 1s ease-in-out 0s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .post-slide:hover .post-img img {
